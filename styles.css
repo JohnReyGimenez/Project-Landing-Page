@@ -6,6 +6,7 @@
 .first-section {
     background-color: #1f2937;
     height: 540px;
+    border: 540px;
 }
 .header {
     display: flex;
@@ -73,6 +74,62 @@ ul {
 }
 
 .info {
+    max-width: 200px;
+}
+
+.imgsection {
+    height: 100px;
+    width: 100px;
+}
+
+.third-section {
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 32px;
+    color: lightslategray;
+    font-weight: 400;
+    height: 400px;
+    margin-bottom: 30px;
+}
+
+.title {
+    font-size: 36px;
+    font-weight: 800;
+    color: #1f2937;
+    text-align: center;
+    padding-top: 200px;
+    
+}
+
+.quote {
+    background-color: #e5e7eb;
+    height: 400px;
+    width: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-left: 100px;
+}
+
+.qoute-text {
+    text-align: center;
+    font-size: 36px;
+    color: #1f2937;
+    font: italic;
+    width: 400px;
+}
+
+.qouted {
+    padding-top: 150px;
+    font-size: 23px;
+    font-weight: 500;
+}
+
+.fourth-section {
     display: flex;
     flex-direction: row;
+    justify-content: center;
+    align-items: center;
 }
