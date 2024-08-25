@@ -73,6 +73,7 @@ a {
 .button1 {
     width: 100px;
     height: 40px;
+    border-radius: 8px;
 }
 
 .pikachuimg {
@@ -135,7 +136,7 @@ a {
 }
 
 .fourth-section {
-    height: 400px;
+    height: 300px;
     width: auto;
     font-family: Roboto, sans-serif;
     margin: 0; 
@@ -185,5 +186,17 @@ a {
     height: 30px;
     width: 100px;
     padding: 8px 24px;
-    background-color: darkgoldenrod
+    background-color: darkgoldenrod;
+}
+
+.footer {
+    height: 100px;
+    text-align: center;
+    background-color: #1f2937;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: medium;
+    color: #e5e7eb;
+    font-size: 24px;
 }
